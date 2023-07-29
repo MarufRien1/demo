@@ -9,7 +9,6 @@ const Header = () => {
         <h1 className="text-sx text-lg font-bold ml-14">LOGO</h1>
         <RxAvatar size={40} />
       </div>
-      <BackBtn />
     </>
   );
 };
