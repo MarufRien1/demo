@@ -1,13 +1,10 @@
 import React from 'react';
 
-export const InfoCard = () => {
+export const InfoCard = (props) => {
   return (
-    <div className="my-5 ">
-      <h1 className="text-xl font-bold">Give your abvility</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni tempora
-        ipsam error dignissimos repudiandae neque eum tenetur
-      </p>
+    <div className="ml-14 ">
+      <h1 className="text-3xl font-semibold mb-3">{props.title}</h1>
+      <p className=" text-lg font-medium">{props.body}</p>
     </div>
   );
 };
