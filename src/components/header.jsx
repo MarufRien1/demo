@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { RxAvatar } from 'react-icons/rx';
-import BackBtn from './BackBtn';
+
 const Header = () => {
   return (
     <>
