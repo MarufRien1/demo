@@ -1,4 +1,4 @@
-import PriceScreen from "../Screens/PriceScreen";
+import PriceScreen from "../components/PriceScreen";
 
 
 

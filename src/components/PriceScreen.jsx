@@ -62,7 +62,7 @@ const PriceScreen = () => {
             <RoundedBtnWithIcon icon={TbHomeHeart} text="Shared room" />
           </div>
         </div>
-        <ActionButtonRow />
+        <ActionButtonRow link="/location" />
       </div>
     </>
   );
