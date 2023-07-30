@@ -5,6 +5,7 @@ import TopHeader from '@/components/TopHeader';
 import Image from 'next/image';
 import React from 'react';
 import { MdLocationOn } from 'react-icons/md';
+import MapPic from '../../../public/Map.png';
 
 const Location = () => {
   return (
@@ -31,7 +32,7 @@ const Location = () => {
           </form>
         </div>
 
-        <Image src={'/map.png'} width={1230} height={447} sizes="100vw" />
+        <Image src={MapPic} width={1230} height={447} sizes="100vw" />
       </div>
 
       <div className=" mr-10 mt-5 ">
