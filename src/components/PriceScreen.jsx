@@ -11,6 +11,7 @@ import { MdWarehouse } from 'react-icons/md';
 import { TbHomeHeart } from 'react-icons/tb';
 import { FaPlus, FaMinus } from 'react-icons/fa';
 import TopHeader from '@/components/TopHeader';
+import RoundPlusBtn from './RoundPlusBtn';
 
 const PriceScreen = () => {
   return (
@@ -25,9 +26,7 @@ const PriceScreen = () => {
           />
 
           <div className=" my-10 flex">
-            <div className="bg-white  p-3 rounded-full border-2 border-black ">
-              <FaPlus size={20} />
-            </div>
+            <RoundPlusBtn style="add" />
 
             <>
               <div className="flex justify-center items-center align-baseline bg-white text-gray-600  border-2 border-gray-800 rounded-full font-semibold text-xl  mx-4 px-[100px] ">
@@ -35,9 +34,7 @@ const PriceScreen = () => {
               </div>
             </>
 
-            <div className="bg-white  p-3 rounded-full border-2 border-black ">
-              <FaMinus size={20} />
-            </div>
+            <RoundPlusBtn style="remove" />
           </div>
 
           <div className="flex  mb-3">
