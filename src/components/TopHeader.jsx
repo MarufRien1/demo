@@ -1,8 +1,7 @@
 import React from 'react';
-import Image from 'next/image';
 import { RxAvatar } from 'react-icons/rx';
 
-const Header = () => {
+const TopHeader = () => {
   return (
     <>
       <div className="flex justify-between p-7 rounded overflow-hidden shadow-lg mb-8">
@@ -13,4 +12,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default TopHeader;

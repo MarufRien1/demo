@@ -1,9 +1,8 @@
 import React from 'react';
-import Header from '../components/Header';
-import { InfoCard } from '../components/InfoCard';
-import BackBtn from '../components/BackBtn';
-import ActionButtonRow from '../components/ActionButtonRow';
-import RoundedBtnWithIcon from '../components/RoundedBtnWithIcon';
+import { InfoCard } from '@/components/InfoCard';
+import BackBtn from '@/components/BackBtn';
+import ActionButtonRow from '@/components/ActionButtonRow';
+import RoundedBtnWithIcon from '@/components/RoundedBtnWithIcon';
 import { MdApartment } from 'react-icons/md';
 import { RiHotelLine } from 'react-icons/ri';
 import { MdOutlineMeetingRoom } from 'react-icons/md';
@@ -11,11 +10,12 @@ import { PiHouse } from 'react-icons/pi';
 import { MdWarehouse } from 'react-icons/md';
 import { TbHomeHeart } from 'react-icons/tb';
 import { FaPlus, FaMinus } from 'react-icons/fa';
+import TopHeader from '@/components/TopHeader';
 
 const PriceScreen = () => {
   return (
     <>
-      <Header />
+      <TopHeader />
       <div className="ml-20">
         <BackBtn />
         <div className="mb-16">
