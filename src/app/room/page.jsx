@@ -27,7 +27,7 @@ const Room = () => {
 
         <div className="font-medium text-xl my-10">Shareable Details</div>
 
-        <div className="flex-col w-fit ">
+        <div className="flex-col w-fit">
           <RowWithControl name="Persons" />
           <RowWithControl name="Bedrooms" />
           <RowWithControl name="Beds" />
