@@ -1,11 +1,16 @@
 import React from 'react';
 import { RxAvatar } from 'react-icons/rx';
+import Link from 'next/link';
 
 const TopHeader = () => {
   return (
     <>
-      <div className="flex justify-between p-7 rounded overflow-hidden shadow-lg mb-8">
-        <h1 className="text-sx text-lg font-bold ml-14">LOGO</h1>
+      <div className="flex justify-between mb-8 overflow-hidden rounded shadow-lg p-7">
+        <Link href="/">
+          <h1 role="button" className="text-lg font-bold text-sx ml-14">
+            LOGO
+          </h1>
+        </Link>
         <RxAvatar size={40} />
       </div>
     </>

@@ -12,7 +12,7 @@ const Location = () => {
     <div>
       <TopHeader />
       <div className="mt-10 ml-16">
-        <BackBtn />
+        <BackBtn link="/" />
         <InfoCard
           className
           title="Where's your place located?"
@@ -35,7 +35,7 @@ const Location = () => {
         <Image src={MapPic} width={1230} height={447} sizes="100vw" />
       </div>
 
-      <div className=" mr-10 mt-5 ">
+      <div className="mt-5 mr-10 ">
         <ActionButtonRow link="/room" />
       </div>
     </div>

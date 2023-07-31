@@ -16,17 +16,19 @@ import { PiBathtubFill } from 'react-icons/pi';
 import { GiPoolDive } from 'react-icons/gi';
 import { LuShowerHead } from 'react-icons/lu';
 import ActionButtonRow from '@/components/ActionButtonRow';
+import BackBtn from '@/components/BackBtn';
 
 const roomFeature = () => {
   return (
     <div>
       <TopHeader />
       <div className="ml-16">
+        <BackBtn link="/room" />
         <InfoCard
           title="Who will share the room?"
           body="In this step, we'll ask you which type of stays you have and if guests will book the entire place or just a room."
         />
-        <div className=" flex flex-wrap mr-60 ">
+        <div className="flex flex-wrap mr-60">
           <RoundedBtnWithIcon icon={PiTelevisionSimpleFill} text="Tv" />
           <RoundedBtnWithIcon
             icon={AiFillCar}
@@ -40,10 +42,10 @@ const roomFeature = () => {
           <RoundedBtnWithIcon icon={MdOutlineAir} text="Air conditioning" />{' '}
           <RoundedBtnWithIcon icon={GiWashingMachine} text="Washing machine" />
         </div>
-        <div className="mt-10  text-lg font-bold text-gray-400">
+        <div className="mt-10 text-lg font-bold text-gray-400">
           Any standout amenities?
         </div>
-        <div className=" flex flex-wrap mr-60">
+        <div className="flex flex-wrap mr-60">
           <RoundedBtnWithIcon icon={LuDumbbell} text="Exercise equipments" />
           <RoundedBtnWithIcon icon={ImSoundcloud2} text="Patio" />{' '}
           <RoundedBtnWithIcon icon={GiBarbecue} text="BBQ grill" />{' '}

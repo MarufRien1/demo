@@ -1,4 +1,5 @@
 import ActionButtonRow from '@/components/ActionButtonRow';
+import BackBtn from '@/components/BackBtn';
 import { InfoCard } from '@/components/InfoCard';
 import RoundedBtnWithIcon from '@/components/RoundedBtnWithIcon';
 import RowWithControl from '@/components/RowWithControl';
@@ -12,6 +13,7 @@ const Room = () => {
     <div>
       <TopHeader />
       <div className="ml-16">
+        <BackBtn link="/location" />
         <InfoCard
           title="Who will share the room?"
           body="In this step, we'll ask you which type of stays you have and if guests will book the entire place or just a room."
@@ -25,7 +27,7 @@ const Room = () => {
           />
         </div>
 
-        <div className="font-medium text-xl my-10">Shareable Details</div>
+        <div className="my-10 text-xl font-medium">Shareable Details</div>
 
         <div className="flex-col w-fit">
           <RowWithControl name="Persons" />

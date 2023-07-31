@@ -18,14 +18,13 @@ const PriceScreen = () => {
     <>
       <TopHeader />
       <div className="ml-20">
-        <BackBtn />
         <div className="mb-16">
           <InfoCard
             title="Give your pricing"
             body="In this step, we'll ask you which type of stays you have and if guests will book the entire place or just a room."
           />
 
-          <div className=" my-10 flex">
+          <div className="flex my-10 ">
             <RoundPlusBtn style="add" />
 
             <>
@@ -37,7 +36,7 @@ const PriceScreen = () => {
             <RoundPlusBtn style="remove" />
           </div>
 
-          <div className="flex  mb-3">
+          <div className="flex mb-3">
             <div className="flex justify-center items-center align-baseline bg-gray-200 text-gray-600  border-2  rounded-full font-semibold text-2xl  mx-4 px-[150px]   py-4 ">
               <span> USD $80.00</span>
             </div>
