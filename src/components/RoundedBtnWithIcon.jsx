@@ -4,7 +4,7 @@ const RoundedBtnWithIcon = (props) => {
   return (
     <button
       type="button"
-      class=" flex py-2.5 px-5  mb-2 text-lg font-semibold text-black  bg-gray-100 rounded-full justify-center items-center mr-5 mt-5"
+      class=" flex py-2.5 px-5  mb-2 text-lg font-semibold text-black  bg-gray-100 rounded-full justify-center items-center mr-5 mt-5 focus:bg-blue-500 focus:text-white"
     >
       <props.icon size={30} className="mx-2" />
       {props.text}

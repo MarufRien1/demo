@@ -12,7 +12,10 @@ const Images = () => {
         <BackBtn link="/roomFeature" />
         <InfoCard title="Upload images" body="Choose at least 6 pictures." />
 
-        <div className="flex flex-col items-center justify-center px-40 py-16 m-4 ml-0 border-2 border-black border-dashed rounded-3xl w-fit">
+        <div
+          role="button"
+          className="flex flex-col items-center justify-center px-40 py-16 m-4 ml-0 border-2 border-black border-dashed rounded-3xl w-fit"
+        >
           <RoundPlusBtn style="add" />
           <p className="my-2 text-2xl font-bold text-center">Add photos</p>
           <p className="text-sm text-center text-gray-500">

@@ -16,7 +16,8 @@ const ListingInfo = () => {
         />
 
         <div>
-          <p>Heading</p>
+          <div className="mt-10 text-lg font-normal ">Heading</div>
+
           <div className=" w-auto flex   border-2 border-black  rounded-full  text-2xl p-3 text-textColor pr-[300px] m-5 ml-0 ">
             <input
               className="w-full outline-none"
@@ -27,7 +28,7 @@ const ListingInfo = () => {
             />
           </div>
 
-          <p>Note</p>
+          <div className="mt-10 text-lg font-normal ">Note</div>
           <div className=" w-auto flex   border-2 border-black    text-2xl p-3 text-textColor pr-[300px] m-5 ml-0 h-40 rounded-3xl ">
             <textarea
               className="w-full m-5 outline-none "
